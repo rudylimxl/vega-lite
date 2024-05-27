@@ -1,3 +1,8 @@
+instruction: drop vega-lite.js to your Looker IDE. Change the 'file' parameter. In this example, it's expecting the file in a folder called 'viz'
+
+
+Add this to your project manifest.lkml file:
+
 visualization: {
   id: "vega"
   label: "Vega-lite"
